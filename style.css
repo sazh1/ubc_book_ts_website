@@ -10,15 +10,17 @@ body {
   color: #fff;
   background-image: url(images/pexels-anna-nekrashevich-6801648-edited-by-pixlr.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-position: center;
 }
 
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1024px;
-  /* height: auto; */
+  text-align: center;
+  width: 80vw;
+  min-height: 99vh;
+  height: auto;
 }
 
 header {
@@ -44,7 +46,7 @@ main {
   content: "";
   clear: both;
   display: table;
-  width: 1024px;
+  width: 80vw;
   height: auto;
 }
 
@@ -108,6 +110,8 @@ footer {
   padding-right: 20px;
   padding-bottom: 5px;
   padding-left: 20px;
+  position: sticky;
+  top: 100%;
 }
 
 footer p {
