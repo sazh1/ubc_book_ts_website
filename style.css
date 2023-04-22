@@ -29,19 +29,68 @@ header {
   padding-right: 10px;
   padding-bottom: 5px;
   padding-left: 10px;
+  margin-bottom: 25px;
 }
 
 main {
   height: auto;
 }
 
-nav {
-  background-color: rgba(195, 208, 219, 0.5);
-  text-align: center;
-  /* height: 50px; */
+* {
+  box-sizing: border-box;
 }
 
-.nav-text {
+.box1::after {
+  content: "";
+  clear: both;
+  display: table;
+  width: 1024px;
+  height: auto;
+}
+
+.box2 {
+  background-color: rgba(195, 208, 219, 0.5);
+  float: left;
+  width: 40%;
+  padding: 25px;
+  height: auto;
+  margin-bottom: 25px;
+  border-style: double;
+  border-color: black;
+}
+
+.box3 {
+  background-color: inherit;
+  float: left;
+  width: 20%;
+  padding: 25px;
+  height: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.box4 {
+  background-color: rgba(195, 208, 219, 0.5);
+  float: left;
+  width: 100%;
+  padding: 25px;
+  height: auto;
+  margin-bottom: 25px;
+  border-style: double;
+  border-color: black;
+}
+
+nav {
+  text-align: center;
+  height: auto;
+  /* margin-top: 50px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  margin-left: 10px; */
+}
+
+nav a {
+  /* background-color: rgba(195, 208, 219, 0.5); */
   color: #002145;
   font-size: large;
   font-family: 'Open Sans', Arial, sans-serif;
@@ -49,10 +98,11 @@ nav {
   padding-right: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
+  text-decoration: none;
 }
 
 footer {
-  background-color: #002145;
+  background-color: #1cbc9c;
   height: auto;
   padding-top: 5px;
   padding-right: 20px;
@@ -60,7 +110,7 @@ footer {
   padding-left: 20px;
 }
 
-.footer-text {
+footer p {
   font-size: smaller;
   font-family: 'Open Sans', Arial, sans-serif;
 }
@@ -80,13 +130,13 @@ p {
   font-family: 'Open Sans', Arial, sans-serif;
 }
 
-.link1 {
+h1 a {
   color: #1F51FF;
   font-family: Arial, Sans-Serif !important;
   text-decoration: none;
 }
 
-.link2 {
+h2 a {
   color: #1F51FF;
   font-size: x-large;
   font-family: Arial, Sans-Serif !important;
@@ -94,7 +144,7 @@ p {
 }
 
 .footer-link {
-  color: #fff;
+  color: #1F51FF;
   font-weight: bold;
   font-family: 'Open Sans', Arial, sans-serif;
   text-decoration: none;
