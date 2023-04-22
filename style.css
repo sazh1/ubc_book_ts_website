@@ -31,12 +31,13 @@ header {
   padding-left: 10px;
 }
 
-section {
+main {
   height: auto;
 }
 
 nav {
   background-color: rgba(195, 208, 219, 0.5);
+  text-align: center;
   /* height: 50px; */
 }
 
